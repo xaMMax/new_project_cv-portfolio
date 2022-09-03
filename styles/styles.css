@@ -1,0 +1,150 @@
+body{
+    background-color: white;
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+}
+.sections{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #1D1F25;
+    margin: 24px 0 24px 0;
+}
+.main-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D1F25;
+    margin: 24px 0 24px 0;
+}
+.centersite{
+    margin-top: 0;
+    width: 1360px;
+    height: 100%;
+    background: linear-gradient(90deg, #B9C0FF 0%, #FAFE51 100%);
+}
+.info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 64px 0 64px 0;
+}
+.foto{
+    position: relative;
+    width: 35%;
+    height: 35%;
+}
+.first-info{
+    position: relative;
+    margin-top: 64px;
+    margin-left: 64px;
+    width: 40%;
+}
+.name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #1D1F25;
+    margin-bottom: 24px;
+}
+.position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: lowercase;
+    color: #1D1F25;
+}
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0;
+}
+.info-language{
+    margin: 0 0 64px 64px;
+
+}
+.info-education{
+    margin: 0 0 64px 64px;
+
+}
+.info-courses{
+    margin: 0 0 64px 64px;
+}
+.info-skills{
+    margin: 0 0 64px 64px;
+
+}
+.info-tools{
+    margin: 0 0 64px 64px;
+
+}
+.info-projects{
+    margin: 0 0 64px 64px;
+}
+.contacts-container{
+    height: 200px;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    margin: 64px 0 0 64px;
+}
+.phone{
+    background: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.email{
+    background: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.linkedin{
+    background: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.github{
+    background: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.phone:hover{
+    opacity: 0.3;
+}
+.email:hover{
+    opacity: 0.3;
+}
+.linkedin:hover{
+    opacity: 0.3;
+}
+.github:hover{
+    opacity: 0.3;
+}
