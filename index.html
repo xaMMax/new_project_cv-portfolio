@@ -4,18 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Maksym Kaidash</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    
     <link rel="preload" href="./img/photo_2022-09-02_11-41-33.png" as="image">
-
 </head>
 <body>
     <section class="centersite">      
@@ -31,7 +26,8 @@
                 team work. Always ready to absorb information
                 and self-studying.</p>
             </div>
-            <img src="./img/photo_2022-09-02_11-41-33.png" alt="Foto" class="foto">
+            <button class="foto-button" id="foto-btn" onclick="foto_onclick()">FOTO</button>
+            <img src="./img/photo_2022-09-02_11-41-33.png" alt="Foto" class="foto" id="foto" onclick="button()">
         </div>
         <div class="main-info">
         <div class="main-info-div">
@@ -111,5 +107,6 @@
             </div>
         </div>
     </section>
+    <script src="./script/main.js"></script>
 </body>
 </html>

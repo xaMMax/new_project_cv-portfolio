@@ -44,10 +44,36 @@ body{
     justify-content: space-around;
     margin: 64px 0 64px 0;
 }
+.foto-button{
+    position: relative;
+    background: rgba(255, 255, 255, 0.01);
+    margin-top: 64px;
+    margin-left: 64px;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: lowercase;
+    color: #1D1F25;
+    border-radius: 150px;
+
+}
 .foto{
     position: relative;
     width: 35%;
     height: 35%;
+    margin-top: 64px;
+    margin-left: 64px;
+    display: none;
+    
+}
+.foto-button:hover{
+    opacity: 0.3;
 }
 .first-info{
     position: relative;
