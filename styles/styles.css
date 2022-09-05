@@ -1,17 +1,21 @@
+html{
+    display: flex;
+    justify-content: center;
+}
 body{
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.95);
     height: 100%;
-    max-width: 100%;
+    width: 1360px;
     font-family: 'Montserrat', sans-serif;
-
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    display: flex;
-    justify-content: center;
+
 }
 .sections{
     font-family: 'Montserrat';
@@ -21,7 +25,7 @@ body{
     line-height: 36px;
     text-transform: uppercase;
     color: #1D1F25;
-    margin: 24px 0 24px 0;
+    margin: 4% 0 4% 0;
 }
 .main-text{
     font-family: 'Montserrat';
@@ -30,11 +34,10 @@ body{
     font-size: 24px;
     line-height: 36px;
     color: #1D1F25;
-    margin: 24px 0 24px 0;
+    margin: 4% 0 4% 0;
 }
 .centersite{
     margin-top: 0;
-    width: 1360px;
     height: 100%;
     background: linear-gradient(180deg, #B9C0FF 0%, #FAFE51 100%);
 }
@@ -42,16 +45,29 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 64px 0 64px 0;
+    margin: 6% 0 6% 0;
+}
+.button-container{
+    position: relative;
+    margin-right: 6%;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.first-info {
+    position: relative;
+    margin-left: 6%;
+    width: 40%;
+    height: 100%;
 }
 .foto-button{
     position: relative;
     background: rgba(255, 255, 255, 0.01);
-    margin-top: 64px;
-    margin-left: 64px;
-    width: 350px;
-    height: 350px;
+    margin: 6%;
+    border-radius: 50%;
     cursor: pointer;
+    height: 100%;
+    width: 100%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -60,26 +76,17 @@ body{
     line-height: 44px;
     text-transform: lowercase;
     color: #1D1F25;
-    border-radius: 150px;
-
 }
 .foto{
-    position: relative;
-    width: 35%;
-    height: 35%;
-    margin-top: 64px;
-    margin-left: 64px;
     display: none;
-    
+    position: relative;
+    width: 90%;
+    height: 85%;
+    margin: 6%;
+    cursor: pointer;
 }
 .foto-button:hover{
     opacity: 0.3;
-}
-.first-info{
-    position: relative;
-    margin-top: 64px;
-    margin-left: 64px;
-    width: 40%;
 }
 .name{
     font-family: 'Montserrat';
@@ -89,7 +96,7 @@ body{
     line-height: 59px;
     text-transform: uppercase;
     color: #1D1F25;
-    margin-bottom: 24px;
+    margin-bottom: 4%;
 }
 .position{
     font-family: 'Montserrat';
@@ -106,71 +113,80 @@ body{
     justify-content: space-around;
     margin-left: 0;
 }
-.info-language{
-    margin: 0 0 64px 64px;
-
+.main-info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0;
 }
-.info-education{
-    margin: 0 0 64px 64px;
-
+.main-info-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0;
 }
-.info-courses{
-    margin: 0 0 64px 64px;
-}
-.info-skills{
-    margin: 0 0 64px 64px;
-
-}
-.info-tools{
-    margin: 0 0 64px 64px;
-
-}
+.info-language, 
+.info-education,
+.info-courses, 
+.info-skills, 
+.info-tools,
 .info-projects{
-    margin: 0 0 64px 64px;
+    margin: 0 0 6% 6%;
 }
 .contacts-container{
-    height: 200px;
+    height: 100%;
+    align-items: center;
 }
 .contacts{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: auto;
-    margin: 64px 0 0 64px;
+    height: 100%;
+    margin: 6%;
 }
-.phone{
-    background: rgba(255, 255, 255, 0);
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.email{
-    background: rgba(255, 255, 255, 0);
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.linkedin{
-    background: rgba(255, 255, 255, 0);
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+.phone, 
+.email, 
+.linkedin,
 .github{
     background: rgba(255, 255, 255, 0);
     margin: 0;
     padding: 0;
     border: 0;
 }
-.phone:hover{
-    opacity: 0.3;
-}
-.email:hover{
-    opacity: 0.3;
-}
-.linkedin:hover{
-    opacity: 0.3;
-}
+.phone:hover,
+.email:hover,
+.linkedin:hover,
 .github:hover{
     opacity: 0.3;
+}
+@media screen and (max-width: 375px) {
+        body{
+            width: 370px;
+        }
+        .info-container{
+            flex-direction: column;
+            justify-content: unset;
+        }
+        .button-container {
+            position: relative;
+            margin-top: 6%;
+            margin-right: 6%;
+            width: unset;
+            height: unset;
+        }
+        .first-info {
+            position: relative;
+            margin-top: 6%;
+            margin-left: 6%;
+            width: unset;
+        }
+        .main-info{
+            flex-direction: column;
+        }
+        .main-info-skills{
+            flex-direction: column;
+        }
+        .contacts{
+            flex-direction: column;
+        }
 }

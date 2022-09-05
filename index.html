@@ -14,7 +14,7 @@
 </head>
 <body>
     <section class="centersite">      
-        <div class="info-container">
+        <div class="info-container" id="info-container">
             <div class="first-info">
                 <h1 class="name">Maksym Kaidash</h1>
                 <h2 class="position">python-developer</h2>
@@ -26,39 +26,41 @@
                 team work. Always ready to absorb information
                 and self-studying.</p>
             </div>
-            <button class="foto-button" id="foto-btn" onclick="foto_onclick()">FOTO</button>
-            <img src="./img/photo_2022-09-02_11-41-33.png" alt="Foto" class="foto" id="foto" onclick="button()">
+            <div class="button-container">
+                <button class="foto-button" id="foto-btn" onclick="foto_onclick()">FOTO</button>
+                <img src="./img/photo_2022-09-02_11-41-33.png" alt="Foto" class="foto" id="foto" onclick="button()">
+            </div>
         </div>
         <div class="main-info">
-        <div class="main-info-div">
-            <div class="info-language">
-                <h3 class="sections">language</h3>
-                <p class="main-text">English(basic)</p>
+            <div class="main-info-div">
+                <div class="info-language">
+                    <h3 class="sections">language</h3>
+                    <p class="main-text">English(basic)</p>
+                </div>
+                <div class="info-education">
+                    <h3 class="sections">Education</h3>
+                    <p class="main-text">Institute of Telecommunication and<br>
+                        Informatization of the State University<br>
+                        of Telecommunication<br>
+                        Kyiv Ukraine<br>
+            
+                        Systems and complexes of telecommunication<br>
+                        Masters degree<br>
+                        August 2010 - March 2015</p>
+                </div>
+                <div class="info-courses">
+                    <h3 class="sections">Courses</h3>
+                    <p class="main-text">Beetroot Academy<br>
+                        Python for beginners (Online)<br>
+                        <a href="https://goo.su/MjEBjyV">Certificate</a><br>
+                        
+                        Udemy<br>
+                        Popelyshko mentorship program (Senior ATQC)<br>
+                        QA/QC Engineer (Online)<br>
+                        <a href="https://goo.su/iQw3QAE">Certificate</a>
+                </div>
             </div>
-            <div class="info-education">
-                <h3 class="sections">Education</h3>
-                <p class="main-text">Institute of Telecommunication and<br>
-                    Informatization of the State University<br>
-                    of Telecommunication<br>
-                    Kyiv Ukraine<br>
-        
-                    Systems and complexes of telecommunication<br>
-                    Masters degree<br>
-                    August 2010 - March 2015</p>
-            </div>
-            <div class="info-courses">
-                <h3 class="sections">Courses</h3>
-                <p class="main-text">Beetroot Academy<br>
-                    Python for beginners (Online)<br>
-                    <a href="https://goo.su/MjEBjyV">Certificate</a><br>
-                    
-                    Udemy<br>
-                    Popelyshko mentorship program (Senior ATQC)<br>
-                    QA/QC Engineer (Online)<br>
-                    <a href="https://goo.su/iQw3QAE">Certificate</a>
-            </div>
-        </div>
-        <div>
+        <div class="main-info-skills">
             <div class="info-skills">
                 <h3 class="sections">skills</h3>
                 <h3 class="sections">Development skills</h3>
