@@ -61,6 +61,7 @@ body{
     height: 100%;
 }
 .foto-button{
+    display: none
     position: relative;
     background: rgba(255, 255, 255, 0.01);
     margin: 6%;
@@ -78,7 +79,7 @@ body{
     color: #1D1F25;
 }
 .foto{
-    display: none;
+    display: flex;
     position: relative;
     width: 90%;
     height: 85%;
